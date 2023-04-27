@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+<title>My survey form</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">FreecodeCamp Survey form</h1>
+<p id="description">Thank you for visiting our website. we're very happy to be with you!</</p>
+<fieldset>
+<form id="survey-form" action="https://www.freecodecamp.org" method="post"><div class="div-container">
+<h4>You are required to fill this form!<br>Required fields are marked by <em>*</em> in red color.</h4><hr>
+<label for="name" id="name-label">Enter your Name:<em>*</em></label><input type="text" class="div-3first" id="name" placeholder="Ex. Aphrodis" required/>
+<br><br>
+<label for="email" id="email-label">Enter your Email:<em>*</em></label><input type="email" class="div-3first" id="email" placeholder="Ex.  aphro@gmail.com" required/>
+
+<br><br>
+<label for="number" id="number-label">Enter your Ages:<em>*</em></label><input type="number" class="div-3first"  id="number" placeholder="18+" min="18" max="32" required/>
+<br><br>
+<label for="dropdown">Select your country:<em>*</em></label>
+ <select id="dropdown" class="txtinput">
+<option>Rwanda</option>
+<option>Uganda</option>
+<option>Tanzania</option>
+<option>South Sudan</option></select> <br><br>
+<label for="radio">Would you recommand freecodecamp to a friend<em>*</em></label>
+ <input type="radio" value="1" id="radio" name="rec" checked>Yes<br>
+ <input type="radio" value="2" id="radio" name="rec" >No<br>
+ <input type="radio" value="3" id="radio" name="rec" >Maybe<br><br>
+
+<div>
+<label>What would you like to enroll in at freecodecamp?<em>*</em></label>
+<input type="checkbox" value="1">None<br>
+<input type="checkbox" value="2">Responsive web design<br>
+<input type="checkbox" value="3">Data structure<br>
+<input type="checkbox" value="4">Information Security</div><br>
+
+<div>
+<label for="dropdown">What is your marital status:<em>*</em></label>
+ <select id="dropdown" class="txtinput">
+<option>Married</option>
+<option>Single</option>
+<option>Divorced</option>
+<option>Orphan</option></select> 
+</dv><br><br>
+
+<div>
+<label>Choose the language(s) you know: <em>*</em></label>
+<input type="checkbox" value="1">English UK<br>
+<input type="checkbox" value="2">English US<br>
+<input type="checkbox" value="3">French<br>
+<input type="checkbox" value="4">Kiswahili<br>
+<input type="checkbox" value="5">Kinyarwanda<br>
+<input type="checkbox" value="6">Russian<br>
+<input type="checkbox" value="7">Indian language<br>
+</div><br>
+
+<div>
+<label>Leave a comment to us, your ideas leads to our improvement</label>
+<textarea class="txtinput" id="textarea" rows="6" cols="40" placeholder="Type comment here..."></textarea></div>
+<div><button id="submit" type="Submit" class="button-div"/>Submit</button>
+</div>
+</form>
+</fieldset>
+
+
+</body>
+</html>

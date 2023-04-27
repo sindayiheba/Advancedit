@@ -1,0 +1,55 @@
+body{
+background-image:url( https://images.unsplash.com/photo-1606245896262-c64704c83cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);
+}
+h1,h4,p{
+text-align: center;
+color: white;
+}
+form{
+text-align:left;
+color:white;
+}
+fieldset{
+width:500px;
+margin: 450px;
+margin-top: auto;
+margin-bottom: auto;
+text-align: center;
+height: auto;
+background-color:darkblue;
+}
+input{
+display:inline;
+}
+
+label{
+display:block;
+}
+
+.button-div{
+background-color: green;
+width:99%;
+color: white;
+}
+/*.div-comment{
+width:90%;
+}*/
+.div-container{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+em{
+backround-color:darkblue;
+color:red;
+}
+hr{
+border: 2px solid brown;
+}
+.txtinput{
+width:98%;
+}
+.div-3first{
+width:96%;
+margin-right: auto;
+}
